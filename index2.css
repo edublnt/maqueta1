@@ -1,0 +1,145 @@
+html,body{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:#f0f0f0;
+}
+
+.panel{
+
+    box-shadow: 1px 5px 40px #888888;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+    height: 80%;
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Barlow Semi Condensed';
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+
+    background-color: #edf2f8;
+}
+
+.container {
+    /* margin: auto 10% auto 10%; */
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* margin: 10%; */
+    /* padding: 5%; */
+
+    height: 70%;
+    width: 70%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 25px;
+
+    grid-template-areas: 
+        "area1 area1 area2 area3"
+        "area4 area5 area5 area3";
+
+}
+
+.card1{
+    background-color: hsl(263, 55%, 52%);
+    grid-area: area1;
+
+    border-radius: 7px;
+}
+
+.card2{
+    background-color: hsl(217, 19%, 35%);
+    grid-area: area2;
+
+    border-radius: 7px;
+
+}
+.card3{
+    background-color: hsl(0, 0%, 100%);
+    grid-area: area3;
+    color: #4d4e59;
+
+    border-radius: 7px;
+    box-shadow: 1px 2px 8px #999999;
+
+
+}
+
+.card4{
+    background-color: hsl(0, 0%, 100%);
+    grid-area: area4;
+    color: #4d4e59;
+
+
+    border-radius: 7px;
+    box-shadow: 1px 2px 8px #999999;
+
+}
+.card5{
+    background-color: hsl(219, 29%, 14%);
+    grid-area: area5;
+
+    border-radius: 7px;
+
+}
+
+.cabecera_cards{
+    display: flex;
+    margin-top: 10px;
+}
+
+img{
+    margin:5px;
+    margin-left:2.5em;
+    margin-right:15px;
+    border-radius: 50px;
+    border: 1px solid #f0f0f0;
+        
+    height: 24px;
+}
+
+.username_cards{
+    line-height: 25%;
+    font-size: 11px;
+}
+
+.username_cards p:nth-child(2){
+    font-size: 11px;
+    opacity: 50%;
+}
+
+.contenido_cards{
+    margin:0 32px 20px 32px;
+}
+
+.contenido_cards p:nth-child(1){
+    margin-top: 5px;
+    margin-bottom: .7em;
+    font-size: 17px;
+}
+
+.contenido_cards p:nth-child(2){
+    font-size:11px;
+    opacity: 50%;
+    line-height: 130%;
+    margin-top: 20px;
+}
+/* @media(min-width:1919px){
+    .container {
+        margin: auto 10% auto 10%;
+        }
+} */
+

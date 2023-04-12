@@ -1,0 +1,126 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin:auto 0% ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: hsl(210, 46%, 95%);
+}
+
+.container{
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+    border-left: 1px solid rgb(255,255,255);
+    border-right: 1px solid rgb(255,255,255) ;
+    border-bottom:  1px solid rgb(255,255,255);
+    
+    height: 80%;
+    width: 80%;
+
+    font-size: 13px;
+    font-family: Barlow Semi Condensed;
+
+    /* background:hsl(0, 0%, 81%); */
+}
+
+.wrapeer {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+.Daniel{
+    height: 80px;
+    width: 100%;
+    display: grid;
+    /* grid-template-columns: 10% 10% 10%; */
+    /* grid-template-rows: 20% 30% 30%; */
+    /* border-color: 10px solid red; */
+
+    text-align: center;
+}
+
+.card1{
+    width: 100%;
+    height: 100%;
+    background-color: #733fc8;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.card2{
+    width: 100%;
+    height: 100%;
+    background-color: #49556b;
+}
+.card3{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+
+    grid-column-start: 4;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.card4{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+}
+.card5{
+    width: 100%;
+    height: 100%;
+    background-color: #18202d;
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+.cards {
+    border-radius: 10px;
+    color: white;
+}
+
+.cabecera_card {
+    display: flex;
+    padding: 40px 40px 0px 40px;
+}
+
+.cabecera_card_username {
+    padding-left: 10px;
+    line-height: 0;
+    font-size: 20px;
+}
+
+.contenido_card {
+    padding: 20px 40px 40px 40px;
+}
+
+img {
+    border-radius: 50%;
+    border-color: white;
+}
+
+.contenido_card_primer-parrafo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contenido_card_segundo-parrafo {
+    font-size: 15px;
+    opacity: 70%;
+}
