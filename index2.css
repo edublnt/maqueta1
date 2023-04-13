@@ -39,8 +39,8 @@ html,body{
     /* margin: 10%; */
     /* padding: 5%; */
 
-    height: 70%;
-    width: 70%;
+    height: 87%;
+    width: 87%;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -137,9 +137,5 @@ img{
     line-height: 130%;
     margin-top: 20px;
 }
-/* @media(min-width:1919px){
-    .container {
-        margin: auto 10% auto 10%;
-        }
-} */
+
 
