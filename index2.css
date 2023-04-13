@@ -31,13 +31,10 @@ html,body{
 }
 
 .container {
-    /* margin: auto 10% auto 10%; */
     margin-bottom: 5%;
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
-    /* margin: 10%; */
-    /* padding: 5%; */
 
     height: 87%;
     width: 87%;
@@ -54,6 +51,11 @@ html,body{
 }
 
 .card1{
+    background-image: url(./design/icons8-cita-izquierda-64.png);
+    background-position: 85% -12%;
+    background-size: 22%;
+    background-repeat: no-repeat;
+    
     background-color: hsl(263, 55%, 52%);
     grid-area: area1;
 
@@ -137,5 +139,4 @@ img{
     line-height: 130%;
     margin-top: 20px;
 }
-
 
